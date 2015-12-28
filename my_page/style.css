@@ -1,0 +1,21 @@
+
+
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+.main {
+  color: red;
+}
+
+.links {
+  text-align: center;
+  background: gray;
+}
+
+/*about me page*/
+.content {
+  text-align: center;
+}
