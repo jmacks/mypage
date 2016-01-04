@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <!-- dependencies and requirements -->
     <!--Font-->
+      <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -15,27 +16,77 @@
     <title>Jeff Macks</title>
   </head>
   <body>
-
-  <nav>
-    <div class="nav-wrapper blue darken-1 z-depth-3">
-      <a href="index.html" id="logo" class="brand-logo left">jeff macks</a>
-      <ul id="nav-mobile" class="right">
-        <li><a href="aboutme.html">about me</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">projects<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- the dropdown menu -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="mancala.html">mancala</a></li>
-    <li><a href="mememe.html">memeMe</a></li>
-    <li><a href="lunch.html">Whats for Lunch?</a></li>
-  </ul>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue darken-1 z-depth-3">
+          <a href="index.html" id="logo" class="brand-logo center">Jeff Macks</a>
+          <ul id="nav-mobile" class="right">
+          </ul>
+        </div>
+      </nav>
+</div>
  <div id="main-content" class="center-align">
-
-   <h3>jeff macks</h3>
-   <img id="profile-pic" src="/images/profilepic.jpeg" alt="jeffmacks" />
-
+   <div id="main-pic">
+     <img id="profile-pic" src="/images/mypicture.jpeg" alt="jeffmacks" />
+   </div>
+   <div id="projects-title">
+     <h3>projects</h3>
+   </div>
+   <div id="project-cards">
+     <div class="row">
+       <!-- card nuber one -->
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/mancalass.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <h5>mancala</h5>
+              <p>a fun and simple strategy classic created using javascript and jquery</p>
+            </div>
+            <div class="card-action">
+              <a href="#">try it out</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+        <!-- card number two -->
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/mememess.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <h5>memeME</h5>
+              <p>a social meme creator created using ruby on rails</p>
+            </div>
+            <div class="card-action">
+              <a href="#">try it out</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+        <!-- card number three -->
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/lunchss.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <h5>What's for Lunch?</h5>
+              <p>an app to help the indecisive decide where to spend their lunch break</p>
+            </div>
+            <div class="card-action">
+              <a href="#">try it out</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
 
 
  </div>
