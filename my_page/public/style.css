@@ -26,6 +26,21 @@ nav {
   margin-top: 50px;
 }
 
+#aboutme {
+  background: midnightblue;
+  color: white;
+  
+}
+
+#aboutme h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#aboutme p {
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+}
+
 #projects {
   background: dodgerblue;
   text-align: center;
