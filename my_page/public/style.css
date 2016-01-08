@@ -29,7 +29,8 @@ nav {
 #aboutme {
   background: midnightblue;
   color: white;
-  
+  margin-top: 66px;
+
 }
 
 #aboutme h3 {
@@ -47,7 +48,8 @@ nav {
 }
 
 #projects-title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poiret One', cursive;
+  font-style: bold;
 }
 
 #project-cards {
@@ -62,5 +64,6 @@ nav {
 
 
 #logo {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
 }
